@@ -1,0 +1,24 @@
+{
+  "name": "spider",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "node-dev ./bin/www"
+  },
+  "dependencies": {
+    "baidu-aip-sdk": "^2.4.6",
+    "cheerio": "^1.0.0-rc.5",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "gm": "^1.23.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "nightmare": "^3.0.2",
+    "node-dev": "^6.2.0",
+    "node-tesseract-ocr": "^2.0.0",
+    "superagent": "^6.1.0"
+  }
+}
